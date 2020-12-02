@@ -11,6 +11,5 @@ namespace password
             MainClass.ExecuteProgram();
             Console.ReadLine();
         }
-
     }
 }
