@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore day2/password/password.csproj
+      run: dotnet restore 
     - name: Build
-      run: dotnet build day2/password/password.csproj
+      run: dotnet build 
     - name: Test
-      run: dotnet test day2/password.tests
+      run: dotnet test 
